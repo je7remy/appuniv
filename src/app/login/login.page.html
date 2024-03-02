@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <!--  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">login</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+
+  <ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-input label="Text input" placeholder="Enter text"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input label="Number input" type="number" placeholder="000"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input label="Password input" type="password" value="password"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input label="Email input" type="email" placeholder="email@domain.com"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input label="Telephone input" type="tel" placeholder="888-888-8888"></ion-input>
+      </ion-item>
+    </ion-list>
+  </ion-list>
+
+
+
+  <ion-button>Default</ion-button>
+<ion-button fill="clear">Clear</ion-button>
+<ion-button fill="outline">Outline</ion-button>
+<ion-button fill="solid">Solid</ion-button>
+
+
+
+
+<ion-button id="present-alert">Click Me</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="Alert!"
+  [buttons]="alertButtons"
+  (didDismiss)="setResult($event)"
+></ion-alert>
+
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "appuniv",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
