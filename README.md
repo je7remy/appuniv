@@ -1,4 +1,5 @@
 
+```markdown
 # 📚 AppUniv - Aplicación Universitaria en Ionic
 
 AppUniv es una aplicación desarrollada con **Ionic Framework** y **Angular** que sirve como prototipo de una **plataforma universitaria móvil**.  
@@ -16,6 +17,7 @@ Este proyecto incluye la configuración inicial del entorno, la estructura de ca
 ---
 
 ## 📁 Estructura del proyecto
+
 ```
 
 .vscode/             -> Configuración de entorno
@@ -42,6 +44,7 @@ tsconfig.\*.json      -> Configuración de TypeScript
 ## 📦 Instalación y ejecución
 
 1. Clona el repositorio:
+
    ```bash
    git clone https://github.com/tuusuario/appuniv.git
 ````
@@ -51,11 +54,13 @@ tsconfig.\*.json      -> Configuración de TypeScript
    ```bash
    cd appuniv
    ```
+
 3. Instala las dependencias:
 
    ```bash
    npm install
    ```
+
 4. Ejecuta la aplicación en modo desarrollo:
 
    ```bash
@@ -78,4 +83,7 @@ tsconfig.\*.json      -> Configuración de TypeScript
 Desarrollado por **Jeremy José de la Cruz Pérez (je7remy)**
 Estudiante de **Licenciatura en Informática** en la **Universidad Pedro Henríquez Ureña**.
 
----
+```
+
+
+```
