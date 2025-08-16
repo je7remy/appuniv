@@ -17,7 +17,6 @@ AppUniv es un prototipo de **plataforma universitaria móvil** desarrollado con 
 
 ## 📁 Estructura del proyecto
 
-```plaintext
 .vscode/              # Configuración del entorno de VSCode
 resources/            # Recursos gráficos y multimedia
 src/                  # Código fuente principal
