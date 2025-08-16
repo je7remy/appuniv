@@ -1,5 +1,4 @@
 
-```markdown
 # 📚 AppUniv - Aplicación Universitaria en Ionic
 
 AppUniv es un prototipo de **plataforma universitaria móvil** desarrollado con **Ionic Framework** y **Angular**. Incluye un sistema de **login básico** y una arquitectura modular diseñada para expandirse con funcionalidades de gestión académica.
@@ -27,7 +26,7 @@ config.xml            # Configuración de Ionic/Cordova
 ionic.config.json     # Configuración de Ionic CLI
 package.json          # Dependencias del proyecto
 tsconfig.*.json       # Configuración de TypeScript
-```
+
 
 ---
 
